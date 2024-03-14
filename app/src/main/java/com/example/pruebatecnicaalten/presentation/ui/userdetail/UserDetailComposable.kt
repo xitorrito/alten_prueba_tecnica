@@ -47,9 +47,7 @@ fun UserDetailComposable(navController: NavHostController, user: User) {
 
     Box {
         Column {
-
             Box() {
-
                 Image(
                     painterResource(R.drawable.user_banner),
                     contentScale = ContentScale.Crop,
@@ -64,7 +62,6 @@ fun UserDetailComposable(navController: NavHostController, user: User) {
                         .padding(horizontal = 17.dp),
                     picture = user.picture
                 )
-
             }
 
             Column(
@@ -89,8 +86,6 @@ fun UserDetailComposable(navController: NavHostController, user: User) {
             containerColor = Color.Transparent
         )
     }
-
-
 }
 
 @Composable

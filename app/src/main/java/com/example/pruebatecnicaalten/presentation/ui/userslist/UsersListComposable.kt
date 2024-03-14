@@ -62,7 +62,6 @@ import java.net.URLEncoder
 fun UsersListComposable(navController: NavHostController) {
 
     val usersListViewModel: UsersListViewModel = hiltViewModel()
-
     val usersList by usersListViewModel.usersStateFlow.collectAsState()
     val showSearchUsers by usersListViewModel.searchUserVisibleStateFlow.collectAsState()
 
@@ -182,7 +181,6 @@ fun UserListItem(user: User, onUserClicked: (user: User?) -> Unit) {
             }
         }
     }
-
 }
 
 @Composable
