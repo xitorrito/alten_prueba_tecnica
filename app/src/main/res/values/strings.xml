@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prueba Tecnica Alten</string>
+    <string name="topbar_contacts">Contactos</string>
+    <string name="user_field_name">Nombre y apellidos</string>
+    <string name="user_field_email">Email</string>
+    <string name="user_field_genre">Género</string>
+    <string name="user_field_date">Fecha de registro</string>
+    <string name="user_field_phone">Teléfono</string>
+    <string name="topbar_action_find_users">Buscar usuarios</string>
+    <string name="search">Buscar</string>
+</resources>
